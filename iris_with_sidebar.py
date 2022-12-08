@@ -10,7 +10,7 @@ import pandas as pd
 import pickle
 import streamlit as st
 
-loaded_model = pickle.load(open("C:/Users/lenovo/Desktop/machine learning/Iris dataset/trained_model.sav", 'rb'))
+loaded_model = pickle.load(open("trained_model.sav", 'rb'))
 
 
 
